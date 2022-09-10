@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'News App',
       home: ChangeNotifierProvider(
         create: (_) => NewsChangeNotifier(NewsService()),
-        child: NewsPage(),
+        child: const NewsPage(),
       ),
     );
   }

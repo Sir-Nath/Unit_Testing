@@ -58,5 +58,6 @@ void main() {
         expect(sut.isLoading, false);
       },
     );
+   
   });
 }
